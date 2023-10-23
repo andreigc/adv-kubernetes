@@ -21,7 +21,7 @@ spec:
                   - key: node-role.kubernetes.io/control-plane
                     operator: Exists
           extraArgs:
-            publish-status-address: $CP_IP
+            publish-status-address: 135.181.82.203
           hostPort:
             enabled: true
           kind: DaemonSet
